@@ -111,7 +111,7 @@ users:
         subprocess.run(["docker", "rm", "--force", "webdavit-test"])
         raise RuntimeError("Failed to start WebDAV server in Docker")
     if server == "nextcloud":
-        time.sleep(7)  # Allow Nextcloud some extra time to initialize
+        time.sleep(10)  # Allow Nextcloud some extra time to initialize
     try:
         yield server
     finally:

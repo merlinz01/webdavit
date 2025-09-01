@@ -15,7 +15,7 @@ classifiers = [
 authors = [
     { name = "merlinz01", email = "158784988+merlinz01@users.noreply.github.com" },
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = ["aiohttp>=3.8.0", "lxml>=4.9.0"]
 
 [build-system]
