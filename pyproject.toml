@@ -3,20 +3,32 @@ name = "webdavit"
 version = "0.1.0"
 description = "A simple async WebDAV client for Python"
 readme = "README.md"
-license = { file = "LICENSE.txt" }
-keywords = ["webdav", "async", "client", "http", "aiohttp"]
+license = "MIT"
+keywords = ["aiohttp", "async", "client", "http", "webdav"]
 classifiers = [
-    "Programming Language :: Python :: 3.13",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Internet :: WWW/HTTP",
     "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Systems :: Filesystems",
+    "Typing :: Typed",
 ]
 authors = [
     { name = "merlinz01", email = "158784988+merlinz01@users.noreply.github.com" },
 ]
 requires-python = ">=3.12"
 dependencies = ["aiohttp>=3.8.0", "lxml>=4.9.0"]
+
+[project.urls]
+Homepage = "https://github.com/merlinz01/webdavit"
+Repository = "https://github.com/merlinz01/webdavit"
+Issues = "https://github.com/merlinz01/webdavit/issues"
 
 [build-system]
 requires = ["uv_build>=0.8.13,<0.9.0"]
